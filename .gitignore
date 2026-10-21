@@ -1,0 +1,26 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+
+# Logs and local files
+logs
+*.log
+npm-debug.log*
+*.local
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea
